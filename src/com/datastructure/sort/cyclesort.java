@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class cyclesort {
 	public static void main(String[] args){
-		int[] arr={3,5,2,1,4};
+		int[] arr={2,1,0};
 		int i=0;
 		while(i<arr.length){
 			if(arr[i]-1!=i){
